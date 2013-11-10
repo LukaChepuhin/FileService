@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/vendor/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=UTF-8" />
+</head>
+<body>
+<section class="container">
+
+    <%-partial('../template/partials/topNavigation')%>
+
+
+</section>
+<form action="/show" enctype="multipart/form-data"
+      method="post">
+    <input type="file" name="upload" multiple="multiple">
+    <input type="submit" value="Upload file" />
+</form>
+</body>
+</html>
+
