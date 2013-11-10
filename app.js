@@ -3,6 +3,7 @@ var http = require('http');
 var path = require('path');
 var config = require('config');
 var log = require('libs/log')(module);
+var fs=require("fs");
 
 var app = express();
 
@@ -27,6 +28,57 @@ app.get('/', function(req, res, next) {
     res.render("index", {
 
     });
+});
+
+app.get('/login', function(req, res, next) {
+    res.render("login", {
+
+    });
+});
+app.get('/page_upload', function(req, res, next) {
+    res.render("page_upload", {
+
+    });
+});
+app.post('/upload', function(req, res, next) {
+
+        console.log("Request handler 'upload' was called.");
+
+        var form = new formidable.IncomingForm();
+        console.log("about to parse");
+        form.parse(req, function(error, fields, files) {
+            console.log("parsing done");
+
+
+            fs.rename(files.upload.path, "/tmp/test.png", function(err) {
+                if (err) {
+                    fs.unlink("/tmp/test.png");
+                    fs.rename(files.upload.path, "/tmp/test.png");
+                }
+            });
+            res.writeHead(200, {"Content-Type": "text/html"});
+            res.write("received image:<br/>");
+            res.write("<img src='/show' />");
+            res.end();
+        });
+
+});
+
+app.post('/show', function(req, res, next) {
+
+    console.log("Request handler 'show' was called.");
+    fs.readFile("/tmp/test.png", "binary", function(error, file) {
+        if(error) {
+            res.writeHead(500, {"Content-Type": "text/plain"});
+            res.write(error + "\n");
+            res.end();
+        } else {
+            res.writeHead(200, {"Content-Type": "image/png"});
+            res.write(file, "binary");
+            res.end();
+        }
+    });
+
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
