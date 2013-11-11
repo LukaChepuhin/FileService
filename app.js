@@ -1,8 +1,8 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var config = require('config');
-var log = require('libs/log')(module);
+var config = require('./config');
+var log = require('./libs/log')(module);
 var fs=require("fs");
 
 var app = express();
@@ -37,6 +37,11 @@ app.get('/login', function(req, res, next) {
 });
 app.get('/page_upload', function(req, res, next) {
     res.render("page_upload", {
+
+    });
+});
+app.get('/registration', function(req, res, next) {
+    res.render("registration", {
 
     });
 });
