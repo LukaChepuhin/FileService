@@ -8,8 +8,9 @@ var fs=require("fs");
 var app = express();
 
 app.engine('ejs', require('ejs-locals')); // layout partial block
+app.set('template engine', 'ejs');
 app.set('views', __dirname + '/template');
-app.set('view engine', 'ejs');
+
 
 app.use(express.favicon()); // /favicon.ico
 if (app.get('env') == 'development') {
@@ -25,12 +26,14 @@ app.use(express.cookieParser()); // req.cookies
 app.use(app.router);
 
 app.get('/', function(req, res, next) {
+
     res.render("index", {
 
     });
 });
 
 app.get('/login', function(req, res, next) {
+
     res.render("login", {
 
     });
@@ -85,6 +88,7 @@ app.post('/show', function(req, res, next) {
     });
 
 });
+//app.post('/login',require('./login').post);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
