@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93de7c9e-68ac-40ac-a296-c6dec2b9c37e" name="Default" comment="">
+    <list default="true" id="93de7c9e-68ac-40ac-a296-c6dec2b9c37e" name="Default" comment="reg and auth">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/beta-sticker-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/binaryfile.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/menu_separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/async/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/async/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/async/lib/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/tools/base64.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/benchmark/bench-multipart-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/async/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/lib/connect-mongo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/frontpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/funkyfilename.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/http/special-chars-in-filename/info.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/example/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/loginStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/logout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/multipart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/no-filename.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/async/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/plain.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/example/post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/preamble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/tool/record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/registration.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/registration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/service.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-connection-aborted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-content-transfer-encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-fixtures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-incoming-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-incoming-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-issue-46.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-octet-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/example/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/workarounds.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FileService.iws" />
@@ -46,7 +117,7 @@
       <file leaf-file-name="service.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.12944162" vertical-offset="0" max-vertical-offset="394">
+            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.17406143" vertical-offset="0" max-vertical-offset="293">
               <folding />
             </state>
           </provider>
@@ -241,20 +312,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -266,6 +323,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -404,7 +462,11 @@
       <created>1384688301506</created>
       <updated>1384688301506</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reg and auth">
+      <created>1384688319569</created>
+      <updated>1384688319569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,11 +474,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28449744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45655876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25763217" sideWeight="0.71550256" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25763217" sideWeight="0.54344124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -539,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.12944162" vertical-offset="0" max-vertical-offset="394">
+        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.17406143" vertical-offset="0" max-vertical-offset="293">
           <folding />
         </state>
       </provider>
