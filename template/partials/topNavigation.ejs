@@ -3,10 +3,16 @@
         <li><a href="/">Главная</a></li>
     </ul>
     <ul class="nav navbar-nav ">
-        <li><a href="/page_upload">Загрузки</a></li>
+        <% if (user) { %>
+        <li><a href="/upload">Загрузки</a></li>
+        <% } %>
     </ul>
     <ul class="nav navbar-nav navbar-right">
+        <% if (user) { %>
+        <li><a href="" onclick="$('<form method=POST action=/logout>').submit();return false">Выйти</a></form></li>
+        <% } else { %>
         <li><a href="/login">Войти</a></li>
+        <% } %>
     </ul>
     <ul class="nav navbar-nav navbar-right">
         <li><a href="/registration">Регистрация</a></li>
@@ -14,3 +20,4 @@
 
 
 </nav>
+
