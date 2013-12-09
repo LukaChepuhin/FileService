@@ -22,9 +22,6 @@ var schema = new Schema({
     created: {
         type: Date,
         default: Date.now
-    },
-    files: {
-        type: Array
     }
 });
 
