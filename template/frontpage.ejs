@@ -2,3 +2,17 @@
 <% block('title', 'Привет ≥︺‿︺≤'); -%>
 
 <p class="lead">Всем привет!</p>
+
+<div class="row">
+    <% for (var i = files.length - 1; i >= 0; i--) { %>
+        <div class="col-md-2">
+            <a href="/download/<%= files[i]._id %>/" class="thumbnail">
+                <% if (files[i].mimeType.match(/^image/)) { %>
+                    <img src="/download/<%= files[i]._id %>/thumb">
+                <% } else { %>
+                    <img src="/images/mimeTypes/<%= files.[i].mimeType.replaceAll('/', '.') %>">
+                <% } %>
+            </a>
+        </div>
+    <% } %>
+</div>

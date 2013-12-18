@@ -1,3 +1,7 @@
+var File = require('models/file').File;
+
 exports.get = function(req, res) {
-    res.render('frontpage');
+	File.find(function (err, files) {
+		res.render('frontpage', {files: files});
+	});
 };

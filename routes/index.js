@@ -17,4 +17,8 @@ module.exports = function(app) {
     app.get('/upload', checkAuth, require('./upload').get);
     app.post('/upload', checkAuth, require('./upload').post);
 
+    app.get('/download/:file/', checkAuth, require('./download').getIndex);
+    app.get('/download/:file/get', checkAuth, require('./download').getFile);
+    app.get('/download/:file/thumb', require('./download').getThumbnail);
+
 };

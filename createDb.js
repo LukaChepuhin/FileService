@@ -23,6 +23,7 @@ function dropDatabase(callback) {
 
 function requireModels(callback) {
     require('models/user');
+    require('models/file');
 
     async.each(Object.keys(mongoose.models), function(modelName, callback) {
         mongoose.models[modelName].ensureIndexes(callback);

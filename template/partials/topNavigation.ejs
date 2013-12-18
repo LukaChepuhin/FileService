@@ -9,15 +9,12 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
         <% if (user) { %>
-        <li><a href="" onclick="$('<form method=POST action=/logout>').submit();return false">Выйти</a></form></li>
+            <li><a>Добро пожаловать, <%=user.username%></a></li>
+            <li><a href="#" onclick="$.post('/logout', function () {window.location='/'});return false;">Выйти</a></form></li>
         <% } else { %>
-        <li><a href="/login">Войти</a></li>
+            <li><a href="/registration">Регистрация</a></li>
+            <li><a href="/login">Войти</a></li>
         <% } %>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
-        <li><a href="/registration">Регистрация</a></li>
-    </ul>
-
-
 </nav>
 
