@@ -13,7 +13,7 @@ module.exports = function(app) {
 
     app.post('/logout', require('./logout').post);
 
-    app.get('/chat', checkAuth, require('./service').get);
+    app.get('/chat', checkAuth, require('./frontpage').get);
     app.get('/upload', checkAuth, require('./upload').get);
     app.post('/upload', checkAuth, require('./upload').post);
 

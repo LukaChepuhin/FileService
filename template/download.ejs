@@ -2,11 +2,13 @@
 <% block('title', "Загрузка файла") -%>
 
 <% if (!ourFile) { %>
-	НЕТ ФАЙЛА!!!!
+    <div class="jumbotron">
+        <p>Запрашиваемый файл отсутствует на сервере.</p>
+    </div>
 <% } else { %>
 	<div class="jumbotron">
 		<h1><%= ourFile.name %></h1>
-			<p>здесь нету описания файла</p>
+			<p>Описание файла отсутствует.</p>
 		<p>
 			<a href="./get" class="btn btn-primary btn-lg" role="button">Скачать</a>
 		</p>

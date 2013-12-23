@@ -1,18 +1,55 @@
 <% layout('layout/page') -%>
 <% block('title', 'Привет ≥︺‿︺≤'); -%>
 
-<p class="lead">Всем привет!</p>
+<div class="jumbotron">
+    <div class="container">
+        Мы рады приветствовать Вас на нашем сайте!
+    </div>
+</div>
 
+<p class="lead">Изображения</p>
 <div class="row">
     <% for (var i = files.length - 1; i >= 0; i--) { %>
-        <div class="col-md-2">
-            <a href="/download/<%= files[i]._id %>/" class="thumbnail">
-                <% if (files[i].mimeType.match(/^image/)) { %>
-                    <img src="/download/<%= files[i]._id %>/thumb">
-                <% } else { %>
-                    <img src="/images/mimeTypes/<%= files.[i].mimeType.replaceAll('/', '.') %>">
-                <% } %>
-            </a>
-        </div>
+    <% if (files[i].mimeType.match(/^image/)) { %>
+    <div class="col-md-3">
+        <a href="/download/<%= files[i]._id %>/" class="thumbnail">
+            <img src="/download/<%= files[i]._id %>/thumb">
+
+            <p><%= files[i].name %></p>
+        </a>
+    </div>
+    <% } %>
+    <% } %>
+</div>
+<p class="lead">Музыка</p>
+<div class="row">
+    <% for (var i = files.length - 1; i >= 0; i--) { %>
+    <% if (files[i].mimeType.match(/^audio/)){ %>
+    <div class="col-md-4 thumbnail">
+
+            <audio src="/download/<%= files[i]._id %>/thumb" controls>
+                <p>Ваш браузер не поддерживает audio элемент.</p>
+            </audio>
+        <a href="/download/<%= files[i]._id %>/">
+            <p><%= files[i].name %></p>
+        </a>
+    </div>
+    <% } %>
+    <% } %>
+</div>
+<p class="lead">Видео</p>
+<div class="row">
+    <% for (var i = files.length - 1; i >= 0; i--) { %>
+    <%  if (files[i].mimeType.match(/^video/)){ %>
+    <div class="col-md-8 thumbnail">
+
+            <video src="/download/<%= files[i]._id %>/thumb" controls>
+                <p>Ваш браузер не поддерживает video элемент.</p>
+            </video>
+        <a href="/download/<%= files[i]._id %>/">
+            <p><%= files[i].name %></p>
+        </a>
+    </div>
+    <% } %>
     <% } %>
 </div>

@@ -20,7 +20,7 @@ if (app.get('env') == 'development') {
     app.use(express.logger('default'));
 }
 
-app.use(express.bodyParser());
+app.use(express.bodyParser({limit:5*1024*1024*1024}));
 
 app.use(express.cookieParser());
 
